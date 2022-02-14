@@ -16,7 +16,8 @@ body{
 .weather{
     width: 40%;
     background-color: rgb(88, 100, 112);
-    margin-top: 80px;
+    height: 50%;
+    margin-top: 60px;
     border-radius: 20px;
 }
 
