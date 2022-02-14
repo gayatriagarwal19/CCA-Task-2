@@ -16,6 +16,7 @@ getData('https://api.openweathermap.org/data/2.5/weather?q=Durgapur&units=metric
     
 });
 
+setInterval(function(){
 var today = new Date();
 
 var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
@@ -30,7 +31,7 @@ const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Satur
 const d = new Date();
 let day = days[d.getDay()];
 document.getElementById("day").innerHTML = day;
-
+}, 1000);
 
 
  
